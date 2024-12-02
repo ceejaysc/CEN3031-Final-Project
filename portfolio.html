@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahan Chery - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Sahan Chery</h1>
+      <p>Computer Science Student | Aspiring Web Developer</p>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="portfolio">
+      <h2>Portfolio</h2>
+      <p>Explore some of my featured projects.</p>
+
+      <!-- Tabs for Projects -->
+      <div class="tabs">
+        <button class="tab-link active" data-tab="web-projects">Projects</button>
+        <button class="tab-link" data-tab="design-projects">Design Projects</button>
+        <button class="tab-link" data-tab="other-projects">Other Projects</button>
+      </div>
+
+      <!-- Web Projects -->
+      <div id="web-projects" class="tab-content active">
+        <div class="project">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/14/Florida_Gators_gator_logo.svg/1200px-Florida_Gators_gator_logo.svg.png" alt="Project 1">
+          <h3>GatorAVL Project</h3>
+          <p>A project that focuses on AVL and trees, coded in C++.</p>
+          <a href="https://github.com/ceejaysc/GatorAVLProject.git" target="_blank" class="cta-button">View GitHub</a>
+        </div>
+        <div class="project">
+          <img src="https://hourglassnewspaper.com/wp-content/uploads/2022/02/normalblank.jpg" alt="Project 2">
+          <h3>Sudoku</h3>
+          <p>A replication of Sudoku in Python.</p>
+          <a href="https://github.com/ceejaysc/Sudoku-Project-Group-135.git" target="_blank" class="cta-button">View GitHub</a>
+        </div>
+      </div>
+
+      <!-- Design Projects -->
+      <div id="design-projects" class="tab-content">
+        <div class="project">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1">
+          <h3>Logo Design</h3>
+          <p>A creative logo design for a tech startup.</p>
+          <a href="#" target="_blank" class="cta-button">View Details</a>
+        </div>
+        <div class="project">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2">
+          <h3>UI/UX Case Study</h3>
+          <p>Detailed research and prototype development for a mobile app.</p>
+          <a href="#" target="_blank" class="cta-button">Read Case Study</a>
+        </div>
+      </div>
+
+      <!-- Other Projects -->
+      <div id="other-projects" class="tab-content">
+        <div class="project">
+          <img src="https://via.placeholder.com/400x250" alt="Project 1">
+          <h3>Data Analysis Tool</h3>
+          <p>Python-based data visualization tool for analyzing large datasets.</p>
+          <a href="#" target="_blank" class="cta-button">View Code</a>
+        </div>
+        <div class="project">
+          <img src="https://via.placeholder.com/400x250" alt="Project 2">
+          <h3>IoT Smart Home</h3>
+          <p>An IoT-based system for controlling and automating home devices.</p>
+          <a href="#" target="_blank" class="cta-button">Learn More</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Sahan Chery. All rights reserved.</p>
+  </footer>
+
+  <!-- Include the JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
